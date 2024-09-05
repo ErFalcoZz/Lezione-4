@@ -1,0 +1,156 @@
+/* IMPOSTAZIONI GENERALI */
+
+body{
+    background-image:url(../img/sfondo.png);
+    font-family: 'Poppins', sans-serif;
+}
+#main-container{
+    padding: 2em;
+}
+
+/* HEADER */
+
+header{
+    background-image: linear-gradient(135deg, #306e85, #4397ba);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0,9em;
+    margin-bottom: 0.9em;
+    color: white;
+    
+}
+header h1{
+    font-weight: 600;
+    padding: 0.9em;
+    padding-bottom: 0.3em;
+}
+
+nav{
+    padding: 0.9em;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0.2em;
+    font-weight: 600;
+    color: white;
+}
+
+/* MAIN */
+
+#main{
+    background-color:white;
+    padding: 0.9em;
+}
+
+main p a{
+    color: rgb(86, 191, 226)
+}
+
+p strong{
+    color: rgb(184, 19, 184);
+    font-weight: bold;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article ul li span{
+    background-color: rgb(192, 191, 191);
+    border-radius: 30px 30px 30px 30px;
+    border-color: rgb(199, 195, 195);
+
+}
+
+/* TABELLE */
+
+table{
+    border: black;
+    border-bottom-color: rgb(29, 128, 209);
+    padding-bottom: 100%;
+}
+
+thead{
+    background-color: rgb(33, 89, 173);
+    color: white;
+}
+
+#title-table{
+    font-weight: bold;
+    padding-left: 4.3em;
+}
+
+/* FORM */
+
+#Newsletter{
+    background-color: rgb(151, 151, 151);
+    padding: 0.9em;
+    padding-bottom: 0.7em;
+}
+
+div input{
+     border-bottom-style: dashed ;
+}
+
+div button{
+    background-color: rgb(33, 89, 173);
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+#aside{
+    background-color: white;
+}
+
+div p a{
+    color: #4397ba;
+}
+
+#articoli-correlati
+{
+    background-color: rgb(216, 208, 208);
+    
+}
+#articoli-correlati span{
+    padding-left: 14em;
+}
+/* FOOTER */
+
+#footer{
+    background-color: rgb(19, 80, 80);
+    color: white;
+}
+
+address p a{
+    color: magenta;
+}
+
+/* Piccole aggiunte di esempio. Come vedi già si vede meglio */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+p, li {
+    margin-bottom: 8px;
+}
+
+ul, ol{
+    margin: 20px;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+iframe {
+    width: 100%;
+}
+
+header, main, aside, footer
+{
+    padding: 20px;
+}
